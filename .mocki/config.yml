@@ -120,3 +120,12 @@ endpoints:
             type: collection
             id: users
             find: id
+  - path: /CalculateOffer
+    method: post
+    responses:
+      - statusCode: 200
+        body:
+          number: 1
+        headers:
+          - name: content-type
+            value: application/json
